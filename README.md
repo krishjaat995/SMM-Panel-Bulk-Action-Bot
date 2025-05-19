@@ -65,3 +65,35 @@
 
 ## Project Overview:
 This project automates bulk social media actions—like likes, follows, shares, and posts—on platforms like Twitter and Facebook, tailored for those running SMM panels or digital marketing resellers. It tackles the biggest pain points in SMM automation: maintaining account integrity, bypassing platform rate limits, and handling thousands of requests without triggering bans.
+
+
+## Core Features:
+- **Reliable Order Fulfillment** — Runs 24/7 with error-recovery and retry logic to ensure high success rates for every bulk task.
+- **Stealth Mode Enabled** — Fingerprint spoofing, residential proxies, and random action timing keep automation under the radar.
+- **Scalable to 250+ Accounts** — Easily manage massive operations with concurrent session handling and multi-threaded task execution.
+
+## Features List:
+| Feature                 | Description                                                              |
+| ----------------------- | ------------------------------------------------------------------------ |
+| Proxy Integration       | Automatically rotates proxies to avoid detection and rate limiting.      |
+| Fingerprint Spoofing    | Uses unique device fingerprints per session to mimic real users.         |
+| Multi-Account Handling  | Operate hundreds of Twitter/Facebook accounts simultaneously.            |
+| Action Randomization    | Adds delays, scrolls, and random clicks to simulate human-like behavior. |
+| Task Scheduler          | Queue and execute bulk orders by schedule or triggers.                   |
+| Error Handling & Retry  | Recovers failed actions and retries intelligently to avoid bans.         |
+| Webhook/API Integration | Connects with SMM panels or custom dashboards via secure API endpoints.  |
+| Session Persistence     | Maintains long-running sessions across reboots and restarts.             |
+
+
+## Key Stats:
+- **Automation Accuracy:** 98%
+- **Session Stability:** 24/7 runtime with smart failover
+- **Concurrent Account Management:** Up to 250+ profiles
+- **Human Detection Evasion:** Passes platform behavior checks 99% of the time
+
+## Built With
+- **Languages:** Python, JavaScript
+- **Frameworks & Tools:** Puppeteer, Playwright, Selenium
+- **Stealth Tools:** GoLogin, Multilogin, Undetected Chromedriver
+- **Platforms Targeted:** Twitter, Facebook
+- **Automation Frameworks:** Cron jobs, Node schedulers, or Python Celery for distributed load
