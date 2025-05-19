@@ -1,5 +1,4 @@
-<h1 align="center">SMM Panel Bulk Action Bot/h1>
-
+<h1 align="center">SMM Panel Bulk Action Bot</h1>
 
 <div align="center">
   <img
