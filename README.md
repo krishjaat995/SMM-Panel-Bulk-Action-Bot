@@ -1,99 +1,118 @@
-<h1 align="center">SMM Panel Bulk Action Bot</h1>
+# SMM Panel Bulk Action Bot 🤖
 
-<div align="center">
-  <img
-    src="https://github.com/user-attachments/assets/d200549d-7613-446f-a43b-19a4117ca360"
-    alt="select device"
-    width="600px"
-  />
-</div>
+![GitHub Repo stars](https://img.shields.io/github/stars/krishjaat995/SMM-Panel-Bulk-Action-Bot?style=social)
+![GitHub forks](https://img.shields.io/github/forks/krishjaat995/SMM-Panel-Bulk-Action-Bot?style=social)
+![GitHub issues](https://img.shields.io/github/issues/krishjaat995/SMM-Panel-Bulk-Action-Bot)
 
+Welcome to the **SMM Panel Bulk Action Bot**! This automation tool is designed for social media marketing panel operators. It simplifies the management of bulk actions on platforms like Twitter and Facebook, allowing you to handle over 250 accounts with ease. 
 
-<div align="center">
-  <a href="https://appilot.app/">
-    <img
-      alt="Website"
-      width="25px"
-      src="https://github.com/user-attachments/assets/8e5f3af3-b098-4c1d-980d-df9aebc680d0"
-    />
-    <code>Appilot Website</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://discord.gg/3CZ5muJdF2">
-    <img
-      alt="Join Our Server"
-      width="30px"
-      src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg"
-    />
-    <code>Join Our Server</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://t.me/devpilot1">
-    <img
-      alt="Contact us"
-      width="30px"
-      src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg"
-    />
-    <code>Contact Us</code>
-  </a>
-</div>
+## Table of Contents
 
-<div align="center">
-<strong> Have a Custom Project in Mind please Contact?</strong>
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-<div align="center">
-  <a href="mailto:support@appilot.app">
-  <img
-    alt="Email"
-    width="30px"
-    src="https://github.com/user-attachments/assets/91c8d428-32b7-4be0-91fa-2e42c902b5b8"
-  />
-  <code>support@appilot.app</code>
-</a>
-  &nbsp;&nbsp;
-  <a href="https://cal.com/app-pilot-m8i8oo/30min">
-  <img
-    alt="Book a 30-minute Call"
-    width="30px"
-    src="https://github.com/user-attachments/assets/cd3e5c7b-3e4e-4bb3-b242-bcc20ee78f13"
-  />
-  <code>Book a 30-minute Call</code>
-</a>
-<span>
+## Features
 
-<div align="left">
+- **Bulk Actions**: Manage actions for 250+ accounts simultaneously.
+- **Proxy Rotation**: Use multiple proxies to enhance security and reduce the risk of bans.
+- **Human-like Behavior**: Mimic real user interactions to avoid detection.
+- **Cross-Platform Support**: Works seamlessly on both Windows and Linux.
+- **Easy Setup**: Simple installation and configuration process.
 
-## Project Overview:
-This project automates bulk social media actions—like likes, follows, shares, and posts—on platforms like Twitter and Facebook, tailored for those running SMM panels or digital marketing resellers. It tackles the biggest pain points in SMM automation: maintaining account integrity, bypassing platform rate limits, and handling thousands of requests without triggering bans.
+## Installation
 
+To get started, follow these steps:
 
-## Core Features:
-- **Reliable Order Fulfillment** — Runs 24/7 with error-recovery and retry logic to ensure high success rates for every bulk task.
-- **Stealth Mode Enabled** — Fingerprint spoofing, residential proxies, and random action timing keep automation under the radar.
-- **Scalable to 250+ Accounts** — Easily manage massive operations with concurrent session handling and multi-threaded task execution.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/krishjaat995/SMM-Panel-Bulk-Action-Bot.git
+   ```
 
-## Features List:
-| Feature                 | Description                                                              |
-| ----------------------- | ------------------------------------------------------------------------ |
-| Proxy Integration       | Automatically rotates proxies to avoid detection and rate limiting.      |
-| Fingerprint Spoofing    | Uses unique device fingerprints per session to mimic real users.         |
-| Multi-Account Handling  | Operate hundreds of Twitter/Facebook accounts simultaneously.            |
-| Action Randomization    | Adds delays, scrolls, and random clicks to simulate human-like behavior. |
-| Task Scheduler          | Queue and execute bulk orders by schedule or triggers.                   |
-| Error Handling & Retry  | Recovers failed actions and retries intelligently to avoid bans.         |
-| Webhook/API Integration | Connects with SMM panels or custom dashboards via secure API endpoints.  |
-| Session Persistence     | Maintains long-running sessions across reboots and restarts.             |
+2. **Navigate to the Directory**:
+   ```bash
+   cd SMM-Panel-Bulk-Action-Bot
+   ```
 
+3. **Install Dependencies**:
+   Make sure you have Python installed. Then run:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Key Stats:
-- **Automation Accuracy:** 98%
-- **Session Stability:** 24/7 runtime with smart failover
-- **Concurrent Account Management:** Up to 250+ profiles
-- **Human Detection Evasion:** Passes platform behavior checks 99% of the time
+## Usage
 
-## Built With
-- **Languages:** Python, JavaScript
-- **Frameworks & Tools:** Puppeteer, Playwright, Selenium
-- **Stealth Tools:** GoLogin, Multilogin, Undetected Chromedriver
-- **Platforms Targeted:** Twitter, Facebook
-- **Automation Frameworks:** Cron jobs, Node schedulers, or Python Celery for distributed load
+After installation, you can start using the bot. Here’s how:
+
+1. **Run the Bot**:
+   ```bash
+   python main.py
+   ```
+
+2. **Follow On-Screen Instructions**: The bot will guide you through the setup process.
+
+3. **Configure Your Accounts**: Input your Twitter and Facebook account details as prompted.
+
+4. **Set Your Actions**: Choose the bulk actions you want to perform.
+
+5. **Monitor Progress**: The bot will provide real-time updates on the actions being executed.
+
+## Configuration
+
+To ensure optimal performance, you may need to configure a few settings:
+
+- **Proxy Settings**: Edit the `config.py` file to include your proxy list.
+- **Account Management**: Store your account credentials securely.
+- **Action Preferences**: Specify the types of actions you want the bot to perform.
+
+## Contributing
+
+We welcome contributions! If you want to help improve this project, please follow these steps:
+
+1. **Fork the Repository**.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out to the project maintainer:
+
+- **Email**: your-email@example.com
+- **GitHub**: [krishjaat995](https://github.com/krishjaat995)
+
+## Releases
+
+You can find the latest releases of the SMM Panel Bulk Action Bot [here](https://github.com/krishjaat995/SMM-Panel-Bulk-Action-Bot/releases). Download the latest version and follow the installation instructions to get started.
+
+Feel free to explore the **Releases** section for updates, new features, and bug fixes.
+
+## Conclusion
+
+The **SMM Panel Bulk Action Bot** is a powerful tool for social media marketers. It automates tasks, saving you time and reducing the risk of bans. With its user-friendly interface and robust features, managing multiple accounts has never been easier.
+
+Explore the possibilities, contribute to the project, and make your social media management more efficient!
+
+---
+
+Thank you for checking out the **SMM Panel Bulk Action Bot**! We hope you find it useful in your social media marketing efforts.
